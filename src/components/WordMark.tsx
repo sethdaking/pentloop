@@ -2,7 +2,7 @@
 
 export default function WordMark() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width={300} height={75} viewBox="0 0 4160.000000 1181.000000" preserveAspectRatio="xMidYMid meet">
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width={200} height={50} viewBox="0 0 4160.000000 1181.000000" preserveAspectRatio="xMidYMid meet">
       
 
 
