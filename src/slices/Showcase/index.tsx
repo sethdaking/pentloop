@@ -27,7 +27,7 @@ const Showcase = ({ slice }: ShowcaseProps): JSX.Element => {
       data-slice-variation={slice.variation}
       className="relative"
     >
-      <div className="glow absolute -z-10 aspect-square w-full max-w-xl rounded-full bg-blue-400/20 blur-3xl filter" />
+      <div className="glow absolute -z-10 aspect-square w-full max-w-xl rounded-full bg-blue-400/20 blur-3xl filter pb-30" />
 
       <AnimatedContent>
         <PrismicRichText
@@ -59,16 +59,14 @@ const Showcase = ({ slice }: ShowcaseProps): JSX.Element => {
           </ButtonLink>
         </div>
 
-        {/*<PrismicNextImage
+        <PrismicNextImage
           field={slice.primary.image}
           className={clsx(
             "opacity-90 shadow-2xl lg:col-span-2 lg:pt-0",
-            slice.variation === "reverse"
-              ? "lg:order-1 lg:translate-x-[15%]"
-              : "lg:-order-1 lg:translate-x-[-15%]",
+
           )}
           sizes="(max-width: 768px) 100vw, 50vw"
-        />*/}
+        />
       </div>
     </Bounded>
   );
