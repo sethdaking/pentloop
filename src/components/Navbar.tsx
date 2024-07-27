@@ -53,7 +53,7 @@ export default function NavBar({ settings }: NavBarProps) {
             <span className="sr-only">Close menu</span>
           </button>
 
-          <div className="grid justify-items-end gap-8">
+          <div className="grid text-white justify-items-end gap-8">
             {settings.data.navigation.map((item) => {
               if (item.cta_button) {
                 return (
